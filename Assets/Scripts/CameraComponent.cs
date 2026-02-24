@@ -4,7 +4,7 @@ public class CameraComponent : MonoBehaviour
 {
     public static float focalLength = 15f; 
     public static Vector2 vanishingPoint = new Vector2(0f, 5f); // Horizon is high up
-    public static float cameraHeight = 7.5f; // Camera is 10 units in the air
+    public static float cameraHeight = 7.5f; // Camera's units in the air
 
     private static CameraComponent instance;
     private Vector3 originalPosition;
